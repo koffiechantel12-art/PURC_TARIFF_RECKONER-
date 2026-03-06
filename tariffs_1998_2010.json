@@ -1,0 +1,1434 @@
+{
+  "1998_Q1_Feb": {
+  "label": "PURC Tariffs (1st Feb. 1998) – Converted to GHS",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.20,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.005 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.0075 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.018 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 0.30,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 600, "rate": 0.008 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.018 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 0.40, "energy_rate": 0.009, "service_charge": 1.00 },
+    "SLT-MV": { "max_demand_rate": 0.40, "energy_rate": 0.008, "service_charge": 1.00 },
+    "SLT-HV": { "max_demand_rate": 0.40, "energy_rate": 0.0075, "service_charge": 1.00 }
+  }
+
+},
+
+  "1998_Q3_Sep": {
+  "label": "September 1998 Billing Cycle – Converted to GHS",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.40,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 150, "rate": 0.012 },
+      { "from_kwh": 151, "to_kwh": 300, "rate": 0.015 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.022 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.035 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 0.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 600, "rate": 0.022 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.032 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 1.00, "energy_rate": 0.018, "service_charge": 2.00 },
+    "SLT-MV": { "max_demand_rate": 1.00, "energy_rate": 0.017, "service_charge": 2.00 },
+    "SLT-HV": { "max_demand_rate": 1.00, "energy_rate": 0.015, "service_charge": 2.00 }
+  }
+
+},
+
+
+ "2001_Q2_May": {
+  "label": "Effective May 2001 – Converted to GHS",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.78,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 150, "rate": 0.0242 },
+      { "from_kwh": 151, "to_kwh": 300, "rate": 0.0304 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.057 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 1.00,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.0436 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.0645 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 3.40, "energy_rate": 0.0362, "service_charge": 4.00 },
+    "SLT-MV": { "max_demand_rate": 3.00, "energy_rate": 0.035, "service_charge": 4.00 },
+    "SLT-HV": { "max_demand_rate": 2.80, "energy_rate": 0.034, "service_charge": 4.00 }
+  }
+
+},
+
+ "2002_Q3_Aug": {
+  "label": "Effective August 1, 2002 (Converted to GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 1.40,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.04 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.096 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.00,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.075 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.098 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 13.00, "energy_rate": 0.036, "service_charge": 6.00 },
+    "SLT-MV": { "max_demand_rate": 8.20, "energy_rate": 0.035, "service_charge": 6.00 },
+    "SLT-HV": { "max_demand_rate": 7.40, "energy_rate": 0.034, "service_charge": 6.00 }
+  }
+
+},
+"2003_Q1_Mar": {
+  "label": "Effective March 1, 2003 (Converted to GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 1.80,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.055 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.096 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.00,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.08 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.098 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 13.50, "energy_rate": 0.038, "service_charge": 6.00 },
+    "SLT-MV": { "max_demand_rate": 9.20, "energy_rate": 0.036, "service_charge": 6.00 },
+    "SLT-HV": { "max_demand_rate": 8.40, "energy_rate": 0.035, "service_charge": 6.00 }
+  }
+
+},
+"2005_Q2_May": {
+  "label": "Effective May 1, 2005 (Converted to GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 1.908,
+    "tiers": [
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.0583 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.1018 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.12,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.0848 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 0.1039 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 14.31, "energy_rate": 0.0403, "service_charge": 6.36 },
+    "SLT-MV": { "max_demand_rate": 9.75, "energy_rate": 0.0382, "service_charge": 6.36 },
+    "SLT-HV": { "max_demand_rate": 8.90, "energy_rate": 0.0371, "service_charge": 6.36 }
+  }
+
+},
+"2006_Q2_May": {
+  "label": "Effective May 2006 (Converted to GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "tiers": [
+      { "from_kwh": 1, "to_kwh": 300, "rate": 0.07 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.12 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.14 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.50,
+    "tiers": [
+      { "from_kwh": 1, "to_kwh": 300, "rate": 0.102 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.125 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.145 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 0.12, "energy_rate": 0.12, "service_charge": 7.50 },
+    "SLT-MV": { "max_demand_rate": 9.00, "energy_rate": 0.05, "service_charge": 12.50 },
+    "SLT-HV": { "max_demand_rate": 9.00, "energy_rate": 0.045, "service_charge": 12.50 }
+  }
+},
+"2007_Q4_Nov": {
+  "label": "Effective 1 November 2007 (GHS)",
+  "currency": "GHS",
+  "residential": {
+  "fixed_block_0_50": 0.00,
+  "service_charge": 0.50,
+  "tiers": [
+
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.12 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.16 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.19 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.14 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.17 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.195 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 1.00, "energy_rate": 0.16, "service_charge": 7.50 },
+    "SLT-MV": { "max_demand_rate": 9.00, "energy_rate": 0.0905, "service_charge": 12.50 },
+    "SLT-HV": { "max_demand_rate": 9.00, "energy_rate": 0.0805, "service_charge": 12.50 }
+  }
+},
+
+"2008_Q3_Jul": {
+  "label": "Effective 1 July 2008 (GHS)",
+  "currency": "GHS",
+  "residential": {
+  "fixed_block_0_50": 0.00,
+  "service_charge": 0.50,
+  "tiers": [
+
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.12 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.16 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.19 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.14 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.17 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.195 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 1.00, "energy_rate": 0.16, "service_charge": 7.50 },
+    "SLT-MV": { "max_demand_rate": 9.00, "energy_rate": 0.0905, "service_charge": 12.50 },
+    "SLT-HV": { "max_demand_rate": 9.00, "energy_rate": 0.205, "service_charge": 12.50 }
+  }
+},
+
+"2010_Q2_Jun": {
+  "label": "Effective 1 June 2010 (GHS)",
+  "currency": "GHS",
+  "residential": {
+  "fixed_block_0_50": 0.00,
+  "service_charge": 1.50,
+  "tiers": [
+
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.17 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.21 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.23 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.26 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.29 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.45 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 14.00, "energy_rate": 0.26, "service_charge": 10.00 },
+    "SLT-MV": { "max_demand_rate": 14.00, "energy_rate": 0.27, "service_charge": 15.00 },
+    "SLT-HV": { "max_demand_rate": 14.00, "energy_rate": 0.27, "service_charge": 15.00 }
+  }
+},
+"2011_Q1_Mar": {
+  "label": "Effective March 2011 (GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "service_charge": 1.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.1595 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2070 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.2300 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.50,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.2293 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2440 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.3850 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 14.00, "energy_rate": 0.2390, "service_charge": 10.00 },
+    "SLT-MV": { "max_demand_rate": 12.00, "energy_rate": 0.1850, "service_charge": 14.00 },
+    "SLT-HV": { "max_demand_rate": 12.00, "energy_rate": 0.1700, "service_charge": 14.00 }
+  }
+},
+"2011_Q3_Sep": {
+  "label": "Effective September 2011 (GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "service_charge": 1.605,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.1707 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2215 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.2461 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.675,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.2454 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2611 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.4120 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 14.98, "energy_rate": 0.2557, "service_charge": 10.70 },
+    "SLT-MV": { "max_demand_rate": 12.84, "energy_rate": 0.1980, "service_charge": 14.98 },
+    "SLT-HV": { "max_demand_rate": 12.84, "energy_rate": 0.1819, "service_charge": 14.98 }
+  }
+},
+"2011_Q4_Dec": {
+  "label": "Effective December 2011 (GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "service_charge": 1.6532,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.1758 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2281 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.2535 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.7553,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.2527 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2689 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.4243 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 15.43, "energy_rate": 0.2634, "service_charge": 11.02 },
+    "SLT-MV": { "max_demand_rate": 13.23, "energy_rate": 0.2039, "service_charge": 15.43 },
+    "SLT-HV": { "max_demand_rate": 13.23, "energy_rate": 0.1874, "service_charge": 15.43 }
+  }
+},
+"2012_Q2_Jun": {
+  "label": "Effective June 2012 (GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "service_charge": 1.6532,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.095 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.1758 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2281 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.2235 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 2.7553,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.2527 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.2689 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.4243 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 15.43, "energy_rate": 0.2634, "service_charge": 11.02 },
+    "SLT-MV": { "max_demand_rate": 13.23, "energy_rate": 0.2039, "service_charge": 15.43 },
+    "SLT-HV": { "max_demand_rate": 13.23, "energy_rate": 0.1874, "service_charge": 15.43 }
+  }
+},
+"2013_Q4_Oct": {
+  "label": "Effective October 2013 (GHS)",
+  "currency": "GHS",
+  "residential": {
+    "fixed_block_0_50": 0.00,
+    "service_charge": 2.9575,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.1568 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.3145 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.4081 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.4535 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 4.9291,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.4521 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.4811 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.7591 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 27.60, "energy_rate": 0.4712, "service_charge": 19.72 },
+    "SLT-MV": { "max_demand_rate": 23.66, "energy_rate": 0.3648, "service_charge": 27.60 },
+    "SLT-HV": { "max_demand_rate": 23.66, "energy_rate": 0.3352, "service_charge": 27.60 }
+  }
+},
+"2014_Q1_Jan": {
+  "label": "Effective January 2014 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 3.245248,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.172002 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.345078 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.447845 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.497605 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 5.408748,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.496092 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.527893 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.832948 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 30.288988, "energy_rate": 0.517076, "service_charge": 21.634991 },
+    "SLT-MV": { "max_demand_rate": 25.96199, "energy_rate": 0.400248, "service_charge": 30.288988 },
+    "SLT-HV": { "max_demand_rate": 25.96199, "energy_rate": 0.367795, "service_charge": 30.288988 }
+  }
+},
+"2014_Q3_Jul": {
+  "label": "Effective July 2014 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 3.637598,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.192797 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.386798 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.50199 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.557765 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 6.062666,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.55607 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.591715 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.933655 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 33.950927, "energy_rate": 0.57959, "service_charge": 24.250661 },
+    "SLT-MV": { "max_demand_rate": 29.100795, "energy_rate": 0.448638, "service_charge": 33.950927 },
+    "SLT-HV": { "max_demand_rate": 29.100795, "energy_rate": 0.412264, "service_charge": 33.950927 }
+  }
+},
+"2014_Q4_Oct": {
+  "label": "Effective October 2014 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 3.875289,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.205393 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.412072 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.53479 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.594211 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 6.458815,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.592403 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.63038 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.994658 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": { "max_demand_rate": 36.169367, "energy_rate": 0.617463, "service_charge": 25.835262 },
+    "SLT-MV": { "max_demand_rate": 31.002314, "energy_rate": 0.477952, "service_charge": 36.169367 },
+    "SLT-HV": { "max_demand_rate": 31.002314, "energy_rate": 0.439199, "service_charge": 36.169367 }
+  }
+},
+"2015_Q2_Apr": {
+  "label": "Effective April 2015 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 3.977209,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.210795 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.42291 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.548855 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.609839 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 6.628682,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.607983 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.646959 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.020817 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 37.120621,
+      "energy_rate": 0.633702,
+      "service_charge": 26.514729
+    },
+    "SLT-MV": {
+      "max_demand_rate": 31.817675,
+      "energy_rate": 0.490522,
+      "service_charge": 37.120621
+    },
+    "SLT-HV": {
+      "max_demand_rate": 31.817675,
+      "energy_rate": 0.45075,
+      "service_charge": 37.120621
+    }
+  }
+},
+"2015_Q3_Jul": {
+  "label": "Effective July 2015 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 3.977209,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.210795 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.42291 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.548855 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.609839 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 6.628682,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.607983 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.646959 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.020817 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 37.120621,
+      "energy_rate": 0.633702,
+      "service_charge": 26.514729
+    },
+    "SLT-MV": {
+      "max_demand_rate": 31.817675,
+      "energy_rate": 0.490522,
+      "service_charge": 37.120621
+    },
+    "SLT-HV": {
+      "max_demand_rate": 31.817675,
+      "energy_rate": 0.45075,
+      "service_charge": 37.120621
+    }
+  }
+},
+"2015_Q4_Dec": {
+  "label": "Effective December 2015 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 6.331717,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.335586 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.673273 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.873777 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.970864 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 10.552862,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.967909 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.029959 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.625141 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 59.096029,
+      "energy_rate": 1.008854,
+      "service_charge": 42.211449
+    },
+    "SLT-MV": {
+      "max_demand_rate": 50.653739,
+      "energy_rate": 0.780911,
+      "service_charge": 59.096029
+    },
+    "SLT-HV": {
+      "max_demand_rate": 50.653739,
+      "energy_rate": 0.717594,
+      "service_charge": 59.096029
+    }
+  }
+},
+"2016_Q2_Apr": {
+  "label": "Effective April 2016 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 6.3317,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.3356 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.6733 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.8738 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.9709 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 10.5529,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.9679 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.0299 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.6251 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 59.0960,
+      "energy_rate": 1.0089,
+      "service_charge": 42.2115
+    },
+    "SLT-MV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7809,
+      "service_charge": 59.0960
+    },
+    "SLT-HV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7176,
+      "service_charge": 59.0960
+    }
+  }
+},
+"2016_Q3_Jul": {
+  "label": "Effective July 2016 Billing Cycle",
+  "currency": "GHS",
+  "residential": {
+    "service_charge": 6.3317,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.3356 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.6733 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.8738 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.9709 }
+    ]
+  },
+  "non_residential": {
+    "service_charge": 10.5529,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.9679 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.0299 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.6251 }
+    ]
+  },
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 59.0960,
+      "energy_rate": 1.0089,
+      "service_charge": 42.2115
+    },
+    "SLT-MV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7809,
+      "service_charge": 59.0960
+    },
+    "SLT-HV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7176,
+      "service_charge": 59.0960
+    }
+  }
+},
+"2017_Q3_Jul": {
+  "label": "Effective 1 July 2017 Billing Cycle (GHS)",
+  "currency": "GHS",
+
+  "residential": {
+    "service_charge": 6.3317,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.3356 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.6733 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.8738 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.9709 }
+    ]
+  },
+
+  "non_residential": {
+    "service_charge": 10.5529,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.9679 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.0299 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.6251 }
+    ]
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 59.0960,
+      "energy_rate": 1.0089,
+      "service_charge": 42.2115
+    },
+    "SLT-MV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7809,
+      "service_charge": 59.0960
+    },
+    "SLT-HV": {
+      "max_demand_rate": 50.6537,
+      "energy_rate": 0.7176,
+      "service_charge": 59.0960
+    }
+  }
+},
+"2018_Q3_Jul": {
+  "label": "Effective 15 July 2018 (GHS)",
+  "currency": "GHS",
+
+  "residential": {
+    "fixed_block_0_50": 0.0,
+    "service_charge_lifeline": 2.13,
+    "service_charge": 6.3317,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.276858 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.55545 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.720866 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.800963 }
+    ]
+  },
+
+  "non_residential": {
+    "service_charge": 10.552862,
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 100, "rate": 0.677536 },
+      { "from_kwh": 101, "to_kwh": 300, "rate": 0.677536 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.720971 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.137598 }
+    ]
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "max_demand_rate": 59.096029,
+      "energy_rate": 0.756640,
+      "service_charge": 42.211449
+    },
+    "SLT-MV": {
+      "max_demand_rate": 50.653739,
+      "energy_rate": 0.585683,
+      "service_charge": 59.096029
+    },
+    "SLT-HV": {
+      "max_demand_rate": 50.653739,
+      "energy_rate": 0.538196,
+      "service_charge": 59.096029
+    },
+    "SLT-HV MINES": {
+      "max_demand_rate": 59.096029,
+      "energy_rate": 1.025739,
+      "service_charge": 59.096029
+    }
+  },
+
+  "levies": {
+    "regulatory_levy_per_kwh": 0.00533
+  }
+},
+"2019_JUL": {
+  "label": "Effective July 2019 Billing Cycle",
+  "levy_rate": 0.055,
+
+  "residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.307780 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.617488 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.801380 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.890422 }
+    ],
+    "service_charge": 7.038906
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 100, "rate": 0.753210 },
+      { "from_kwh": 101, "to_kwh": 300, "rate": 0.753210 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.801496 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.264657 }
+    ],
+    "service_charge": 11.731511
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 0.988591,
+      "max_demand_rate": 0.0,
+      "service_charge": 46.926045
+    },
+    "SLT-MV": {
+      "energy_rate": 0.750589,
+      "max_demand_rate": 0.0,
+      "service_charge": 65.696464
+    },
+    "SLT-HV": {
+      "energy_rate": 0.787776,
+      "max_demand_rate": 0.0,
+      "service_charge": 65.696464
+    }
+  }
+},
+"2019_OCT": {
+  "label": "Effective October 2019 Billing Cycle",
+  "levy_rate": 0.055,
+
+  "residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.326060 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.654161 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.848974 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.943304 }
+    ],
+    "service_charge": 7.456947
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 100, "rate": 0.797943 },
+      { "from_kwh": 101, "to_kwh": 300, "rate": 0.797943 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.849097 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.339765 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.047303,
+      "max_demand_rate": 0.0,
+      "service_charge": 49.712983
+    },
+    "SLT-MV": {
+      "energy_rate": 0.795167,
+      "max_demand_rate": 0.0,
+      "service_charge": 69.598177
+    },
+    "SLT-HV": {
+      "energy_rate": 0.834562,
+      "max_demand_rate": 0.0,
+      "service_charge": 69.598177
+    }
+  }
+},
+"2020": {
+  "label": "Effective 1 January 2020 Billing Cycle",
+  "residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.32606 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.654161 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.848974 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.943304 }
+    ],
+    "service_charge": 7.456947
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 100, "rate": 0.797943 },
+      { "from_kwh": 101, "to_kwh": 300, "rate": 0.797943 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.849097 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.339765 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.047303,
+      "service_charge": 49.712983,
+      "max_demand_rate": 0
+    },
+    "SLT-MV": {
+      "energy_rate": 0.795167,
+      "service_charge": 69.598177,
+      "max_demand_rate": 0
+    },
+    "SLT-HV": {
+      "energy_rate": 0.834562,
+      "service_charge": 69.598177,
+      "max_demand_rate": 0
+    }
+  }
+},
+"2021": {
+  "label": "Effective 1st January 2021 (GHS)",
+  "levies_applicable": true,
+
+  "residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 50, "rate": 0.326060 },
+      { "from_kwh": 51, "to_kwh": 300, "rate": 0.654161 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.848974 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 0.943304 }
+    ],
+    "service_charge": 7.456947,
+    "lifeline_service_charge": 2.130000
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 100, "rate": 0.797943 },
+      { "from_kwh": 101, "to_kwh": 300, "rate": 0.797943 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.849097 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.339765 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.047303,
+      "service_charge": 49.712983,
+      "max_demand_rate": 0
+    },
+    "SLT-MV": {
+      "energy_rate": 0.795167,
+      "service_charge": 69.598177,
+      "max_demand_rate": 0
+    },
+    "SLT-HV": {
+      "energy_rate": 0.834562,
+      "service_charge": 69.598177,
+      "max_demand_rate": 0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 2.639705,
+      "service_charge": 69.598177,
+      "max_demand_rate": 0
+    }
+  }
+
+},
+"2022": {
+  "label": "Effective 1st September 2022 (GHS)",
+  "levies_applicable": true,
+
+  "residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 30, "rate": 0.419065 },
+      { "from_kwh": 31, "to_kwh": 300, "rate": 0.890422 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.155595 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.283995 }
+    ],
+    "service_charge": 10.730886,
+    "lifeline_service_charge": 2.130000
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 0.837841 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 0.891552 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.330919 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.326125,
+      "service_charge": 500.000000,
+      "max_demand_rate": 0
+    },
+    "SLT-MV": {
+      "energy_rate": 1.006863,
+      "service_charge": 500.000000,
+      "max_demand_rate": 0
+    },
+    "SLT-HV": {
+      "energy_rate": 1.056746,
+      "service_charge": 500.000000,
+      "max_demand_rate": 0
+    },
+    "SLT-HV STEEL COMPANIES": {
+      "energy_rate": 0.745315,
+      "service_charge": 500.000000,
+      "max_demand_rate": 0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 2.639705,
+      "service_charge": 500.000000,
+      "max_demand_rate": 0
+    }
+  }
+},
+"2023_FEB": {
+  "label": "Effective 1st February 2023",
+  "currency": "GHS",
+  "levies_applicable": true,
+
+  "residential": {
+    "fixed_block_0_30": 0.544627,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.157212 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.501837 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.668708 }
+    ],
+    "service_charge": 10.730886,
+    "lifeline_service_charge": 2.13
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.088876 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.158681 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.729692 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.723461,
+      "service_charge": 500.0
+    },
+    "SLT-MV": {
+      "energy_rate": 1.308541,
+      "service_charge": 500.0
+    },
+    "SLT-HV": {
+      "energy_rate": 1.373370,
+      "service_charge": 500.0
+    },
+    "SLT-HV STEEL COMPANIES": {
+      "energy_rate": 0.968627,
+      "service_charge": 500.0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 3.430618,
+      "service_charge": 500.0
+    }
+  }
+},
+"2023_JUN": {
+  "label": "Effective 1st June 2023",
+  "currency": "GHS",
+  "levies_applicable": true,
+
+  "residential": {
+    "fixed_block_0_30": 0.644620,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.369676 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.777574 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 1.975082 }
+    ],
+    "service_charge": 10.730886,
+    "lifeline_service_charge": 2.13
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.288793 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.371414 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 2.047263 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.039889,
+      "service_charge": 500.0
+    },
+    "SLT-MV": {
+      "energy_rate": 1.548788,
+      "service_charge": 500.0
+    },
+    "SLT-HV": {
+      "energy_rate": 1.625521,
+      "service_charge": 500.0
+    },
+    "SLT-HV STEEL COMPANIES": {
+      "energy_rate": 1.146467,
+      "service_charge": 500.0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 4.060478,
+      "service_charge": 500.0
+    }
+  }
+},
+"2023_SEP": {
+  "label": "Effective 1st September 2023",
+  "currency": "GHS",
+  "levies_applicable": true,
+
+  "residential": {
+    "fixed_block_0_30": 0.644620,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.427485 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.852598 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 2.058442 }
+    ],
+    "service_charge": 10.730886,
+    "lifeline_service_charge": 2.13
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.288793 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.371414 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 2.047263 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.039889,
+      "service_charge": 500.0
+    },
+    "SLT-MV": {
+      "energy_rate": 1.548788,
+      "service_charge": 500.0
+    },
+    "SLT-HV": {
+      "energy_rate": 1.625521,
+      "service_charge": 500.0
+    },
+    "SLT-HV STEEL COMPANIES": {
+      "energy_rate": 1.146467,
+      "service_charge": 500.0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 4.060478,
+      "service_charge": 500.0
+    }
+  }
+},
+"2023_DEC": {
+  "label": "Effective 1st December 2023",
+  "currency": "GHS",
+  "levies_applicable": true,
+
+  "residential": {
+    "fixed_block_0_30": 0.634792,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.405722 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.824354 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 2.027060 }
+    ],
+    "service_charge": 10.730886,
+    "lifeline_service_charge": 2.13
+  },
+
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.269145 },
+      { "from_kwh": 301, "to_kwh": 600, "rate": 1.350506 },
+      { "from_kwh": 601, "to_kwh": null, "rate": 2.016051 }
+    ],
+    "service_charge": 12.428245
+  },
+
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.008789,
+      "service_charge": 500.0
+    },
+    "SLT-MV": {
+      "energy_rate": 1.525176,
+      "service_charge": 500.0
+    },
+    "SLT-HV": {
+      "energy_rate": 1.600738,
+      "service_charge": 500.0
+    },
+    "SLT-HV STEEL COMPANIES": {
+      "energy_rate": 1.128988,
+      "service_charge": 500.0
+    },
+    "SLT-HV MINES": {
+      "energy_rate": 3.998573,
+      "service_charge": 500.0
+    }
+  }
+},
+"2024_Q1_Apr": {
+  "label": "Effective 1 April 2024",
+  "residential": {
+    "fixed_block_0_30": 0.634792,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.405722 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.857432 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.269145 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.577242 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 1.910709,
+      "service_charge": 500.00
+    },
+    "SLT-MV": {
+      "energy_rate": 1.525176,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 3.998573,
+      "service_charge": 500.00
+    }
+  }
+},
+"2024_Q2_Jul": {
+  "label": "Effective 1 July 2024",
+  "residential": {
+    "fixed_block_0_30": 0.656664,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.487753 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.965822 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.343206 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.669293 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.004630,
+      "service_charge": 500.00
+    },
+    "SLT-MV": {
+      "energy_rate": 1.600146,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.044000,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 4.195124,
+      "service_charge": 500.00
+    }
+  }
+},
+"2024_Q3_Oct": {
+  "label": "Effective 1 October 2024",
+  "residential": {
+    "fixed_block_0_30": 0.676495,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.532683 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.025190 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.383771 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.719695 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.065170,
+      "service_charge": 500.00
+    },
+    "SLT-MV": {
+      "energy_rate": 1.648471,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.075529,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 4.321817,
+      "service_charge": 500.00
+    }
+  }
+},
+"2025_Q2_May": {
+  "label": "Effective 1 May 2025",
+  "residential": {
+    "fixed_block_0_30": 0.776274,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.758743 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.323892 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.587868 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 1.973338 }
+    ],
+    "service_charge": 12.418245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.369769,
+      "service_charge": 500.00
+    },
+    "SLT-MV-HV": {
+      "energy_rate": 1.891609,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.234162,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 4.959255,
+      "service_charge": 500.00
+    }
+  }
+},
+"2025_Q3_Jul": {
+  "label": "Effective 1 July 2025",
+  "residential": {
+    "fixed_block_0_30": 0.795308,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.801867 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.380873 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.626801 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.021723 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.427874,
+      "service_charge": 500.00
+    },
+    "SLT-MV-HV": {
+      "energy_rate": 1.937990,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.264423,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 5.080854,
+      "service_charge": 500.00
+    }
+  }
+},
+"2025_Q4_Oct": {
+  "label": "Effective 1 October 2025",
+  "residential": {
+    "fixed_block_0_30": 0.804389,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 1.822442 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.408059 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.645377 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.044809 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.455597,
+      "service_charge": 500.00
+    },
+    "SLT-MV-HV": {
+      "energy_rate": 1.960119,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.278861,
+      "service_charge": 500.00
+    },
+    "SLT-HV-MINES": {
+      "energy_rate": 5.138870,
+      "service_charge": 500.00
+    }
+  }
+},
+"2026_Q1_Jan": {
+  "label": "Effective 1 January 2026",
+  "residential": {
+    "fixed_block_0_30": 0.883739,
+    "tiers": [
+      { "from_kwh": 31, "to_kwh": 300, "rate": 2.002218 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.645604 }
+    ],
+    "service_charge_lifeline": 2.13,
+    "service_charge": 10.730886
+  },
+  "non_residential": {
+    "tiers": [
+      { "from_kwh": 0, "to_kwh": 300, "rate": 1.807687 },
+      { "from_kwh": 301, "to_kwh": null, "rate": 2.246521 }
+    ],
+    "service_charge": 12.428245
+  },
+  "slt": {
+    "SLT-LV": {
+      "energy_rate": 2.697832,
+      "service_charge": 500.00
+    },
+    "SLT-MV": {
+      "energy_rate": 2.153477,
+      "service_charge": 500.00
+    },
+    "SLT-MV2": {
+      "energy_rate": 1.342804,
+      "service_charge": 500.00
+    },
+    "SLT-HV": {
+      "energy_rate": 2.153477,
+      "service_charge": 500.00
+    }
+  }
+}
+
+
+}
