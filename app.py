@@ -4,7 +4,25 @@ from pathlib import Path
 
 st.set_page_config(page_title="PURC Tariff Reckoner", page_icon="⚡", layout="centered")
 
-DATA_PATH = Path(__file__).parent / "data" / "tariffs_1998_2010.json"
+
+def resolve_data_path() -> Path:
+    base_dir = Path(__file__).parent
+    candidate_paths = [
+        base_dir / "data" / "tariffs_1998_2010.json",
+        base_dir / "tariffs_1998_2010.json",
+    ]
+
+    for path in candidate_paths:
+        if path.exists():
+            return path
+
+    raise FileNotFoundError(
+        "Could not find the tariff data file. Checked: "
+        + ", ".join(str(path) for path in candidate_paths)
+    )
+
+
+DATA_PATH = resolve_data_path()
 
 
 # ---------------------------
@@ -15,25 +33,48 @@ def load_tariffs():
 
 
 # ---------------------------
-# Levies
+# Statutory payments
 # ---------------------------
+def billing_year(period_key: str) -> int | None:
+    try:
+        return int(period_key.split("_")[0])
+    except Exception:
+        return None
+
+
 def levy_rate(period_key: str, customer_type: str) -> float:
     """
-    Your current rule: from 2016 onward, apply 5% levy on ENERGY only
-    and only for Residential and Non-Residential.
+    For 2016–2026, apply a 5% levy on total energy charge
+    for all customer categories.
     """
-    try:
-        year = int(period_key.split("_")[0])
-    except Exception:
+    year = billing_year(period_key)
+    if year is None:
         return 0.0
 
-    if year >= 2016 and customer_type in ["Residential", "Non-Residential"]:
+    if 2016 <= year <= 2026:
         return 0.05
     return 0.0
 
 
-def calc_levies(energy: float, period_key: str, customer_type: str) -> float:
-    return energy * levy_rate(period_key, customer_type)
+def tax_rate(period_key: str, customer_type: str) -> float:
+    """
+    For 2016–2026, apply 20% tax on (energy + service charge)
+    for all non-residential / non-residential-equivalent categories.
+    """
+    year = billing_year(period_key)
+    if year is None:
+        return 0.0
+
+    if 2016 <= year <= 2026 and customer_type != "Residential":
+        return 0.20
+    return 0.0
+
+
+def calc_statutory_payments(energy: float, service: float, period_key: str, customer_type: str) -> tuple[float, float, float]:
+    levy = energy * levy_rate(period_key, customer_type)
+    tax = (energy + service) * tax_rate(period_key, customer_type)
+    total = levy + tax
+    return float(levy), float(tax), float(total)
 
 
 # ---------------------------
@@ -369,20 +410,24 @@ if st.button("CALCULATE"):
             slt_data = period["slt"][customer_type]
             energy, service = calc_slt_forward(kwh, demand_kva, slt_data)
 
-        levies = calc_levies(energy, period_key, customer_type)
-        total = energy + levies + service
+        levy, tax, statutory_total = calc_statutory_payments(energy, service, period_key, customer_type)
+        total = energy + service + statutory_total
 
         st.session_state.result_energy = f"{energy:,.2f}"
         st.session_state.result_service = f"{service:,.2f}"
-        st.session_state.result_levies = f"{levies:,.2f}"
+        st.session_state.result_levies = f"{statutory_total:,.2f}"
         st.session_state.result_total = f"{total:,.2f}"
         st.session_state.result_kwh = ""
 
     else:
         # Reverse: Total -> kWh
-        # total = energy + levies(energy) + service
-        # levies = r * energy, so total = energy*(1+r) + service
+        # Residential (2016-2026):
+        #   total = energy + levy + service = energy*(1+r) + service
+        # All other categories (2016-2026):
+        #   total = energy + levy + service + tax
+        #         = energy*(1+r+t) + service*(1+t)
         r = levy_rate(period_key, customer_type)
+        t = tax_rate(period_key, customer_type)
 
         # determine service charge first (depends on customer type)
         if customer_type == "Residential":
@@ -393,14 +438,15 @@ if st.button("CALCULATE"):
             slt_data = period["slt"][customer_type]
             service = float(slt_data.get("service_charge", 0.0))
 
-        net_for_energy_plus_levy = max(float(total_amount) - service, 0.0)
+        net_for_energy = max(float(total_amount) - (service * (1.0 + t)), 0.0)
 
-        if (1.0 + r) <= 0:
+        energy_multiplier = 1.0 + r + t
+        if energy_multiplier <= 0:
             energy = 0.0
         else:
-            energy = net_for_energy_plus_levy / (1.0 + r)
+            energy = net_for_energy / energy_multiplier
 
-        levies = energy * r
+        levy, tax, statutory_total = calc_statutory_payments(energy, service, period_key, customer_type)
 
         # invert energy -> kWh
         if customer_type == "Residential":
@@ -411,10 +457,10 @@ if st.button("CALCULATE"):
             slt_data = period["slt"][customer_type]
             kwh_est = invert_slt_energy_to_kwh(energy, slt_data, demand_kva)
 
-        total_check = energy + levies + service
+        total_check = energy + service + statutory_total
 
         st.session_state.result_energy = f"{energy:,.2f}"
         st.session_state.result_service = f"{service:,.2f}"
-        st.session_state.result_levies = f"{levies:,.2f}"
+        st.session_state.result_levies = f"{statutory_total:,.2f}"
         st.session_state.result_total = f"{total_check:,.2f}"
         st.session_state.result_kwh = f"{kwh_est:,.2f}"
